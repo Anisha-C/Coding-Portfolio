@@ -71,7 +71,7 @@
     border-radius: 15px;
     text-shadow: none;
   }
-
+  
   section {
     padding: 60px;
   }
@@ -237,7 +237,7 @@
     color: var(--secondary-color);
   }
   /* END CONTACT STYLES */
-
+  
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
   @media screen and (max-width: 980px) {
     header {
@@ -273,7 +273,15 @@
     
     .project {
       flex: 0 70%;
+      width: 100%;
     }
+
+    .project-bio{
+        flex: 0 70%;
+        width: 100%;
+    }
+
+ 
     
   }
   
@@ -300,8 +308,15 @@
     }
   
     .project {
-      flex: 0 100%;
+      flex: 0 70%;
+      width: 100%;
     }
+
+    .project-bio{
+        flex: 0 100%;
+        width: 100%;
+    }
+  
   
     .contact-info {
       text-align: center;
@@ -315,6 +330,4 @@
       order: 3;
     }
   }
-  
-  
   
